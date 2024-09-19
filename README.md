@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Antiquitas Interactive
 
-## Getting Started
+Antiquitas Interactive is a web application that allows users to engage in conversations with historical figures from the ancient Mediterranean world. This project aims to bridge the gap between academic historical study and interactive digital experiences.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Chat with AI-powered historical personas
+- User authentication system
+- Historical context explanations
+- Responsive design for various devices
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Application: TypeScript, Next.js, React, Material-UI
+- Database: MongoDB
+- AI: OpenAI GPT-4
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+Visit the Antiquitas Interactive website to register for an account or log in. Once authenticated, you can start chatting with various historical personas and explore the rich history of the ancient world.
 
-To learn more about Next.js, take a look at the following resources:
+## To-Do
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Technical Tasks
+- Integrate authentication with Amazon Cognito
+- Implement Amazon SES for the contact form
+- Deploy the Next.js application on Vercel or AWS (using services like Amplify or EC2)
+- Build deployment infrastructure using Terraform for provisioning AWS resources
+- Configure server-side rendering and static generation where appropriate for performance optimization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Project Enhancements
+- Add a section for each persona suggesting primary sources for further learning
+- Implement a colorful timeline on the chat page to visualize when each persona lived relative to others
+- Create a maps section showcasing the territorial extent of various empires across different periods
+- Replace AI-generated art with contributions from artists (see note below)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**This project is not licensed for use or distribution until further notice.**  
+All rights are reserved, and no part of this project may be used, copied, modified, or distributed without explicit permission from the author.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+For any inquiries or feedback, please reach out through the contact form on the website.
+
+## Acknowledgments
+
+- This project is inspired by my undergraduate studies in ancient Mediterranean history, with special thanks to my professor for reigniting my interest in the subject.
+- Also inspired by Age of Empires and Star Trek.
+- Powered by OpenAI's GPT-4 for realistic historical conversations
+
+## Note on Artwork
+
+The current artwork used in Antiquitas Interactive is AI-generated. However, I am actively seeking talented artists passionate about history to contribute authentic, historically accurate artwork. If you're interested in contributing your skills to bring the ancient world to life visually, please contact me through the website.
